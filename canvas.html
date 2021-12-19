@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Domača naloga RG3</title>
+        <style>
+            html, body {
+                width:  100%;
+                height: 100%;
+                margin: 0;
+                }
+        </style>  
+    </head>
+    <body>
+        <input type="button" id="eG" value="prikaži drevo">
+        <input type="button" id="sea" value="prazni/polni krogci">
+        <label>Stevilo genereranih krogov:</label>
+        <input type="number" id="num" value=10>
+        <label>Stevilo vesh krogov:</label>
+        <div id="dis" style="display: inline-block;"></div>
+        <br />
+        <script src="QuadTree.js" type="module"></script>
+        <script src="draw.js" type="module"></script>
+        <canvas id="myCanvas"></canvas>
+    </body>
+</html>
